@@ -12,7 +12,7 @@ end
 
 class Dog
   @all = []
-  
+
   def initialize(name, breed, age)
     @name = name
     @breed = breed
