@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
   end
 end
 
-class Dogs
+class Dog
 
   def initialize(name, breed, age)
     @name = name
@@ -19,7 +19,7 @@ class Dogs
   end
 
   def self.all
-    
+
   end
 
 end
