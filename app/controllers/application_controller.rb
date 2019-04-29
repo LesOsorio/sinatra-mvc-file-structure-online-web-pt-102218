@@ -11,7 +11,7 @@ class ApplicationController < Sinatra::Base
 end
 
 class Dog
-  @@all = []
+  @all = []
   
   def initialize(name, breed, age)
     @name = name
@@ -20,7 +20,7 @@ class Dog
   end
 
   def self.all
-    @@all
+    @all
   end
 
   def self.count
